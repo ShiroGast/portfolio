@@ -8,8 +8,8 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <head id="home">
-        <div class="header">
+    <head>
+        <div class="header" id="header">
             <nav>
                 <div class="logo">
                     <img src="logo.png" alt="Logo">
@@ -28,13 +28,13 @@
         </div>
     </head>
     <main>
-        <section class="portfolio">
+        <section id="home" class="portfolio">
             <div class="portfolio_text">
                 <h1>Portfolio</h1>
                 <p>Welcome to my portfolio website! Here you can explore my work and learn more about me. Feel free to browse through the sections and don't hesitate to reach out if you have any questions or inquiries. Enjoy your visit!</p>
             </div>
         </section>
-        <section id="about">
+        <section id="about" class="about">
             <div class="about_text">
                 <h2>About me</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sit assumenda vitae quis blanditiis temporibus pariatur cum laboriosam corrupti unde officiis dolores odio cumque voluptatem quibusdam, aliquid, id minus iusto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos ut sit temporibus illum ad totam quasi, eveniet ex debitis esse harum quia accusantium eaque tempore earum corporis expedita deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet, maiores laborum, obcaecati aperiam quis sed magnam praesentium corrupti hic temporibus aliquam assumenda est laudantium fugiat tempore accusamus ex! Id! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima ratione velit ipsum illo at voluptates, aspernatur consequatur adipisci ut, officia vitae ex accusamus sit numquam eligendi cumque, necessitatibus veritatis?</p>
@@ -43,23 +43,43 @@
                 <img src="me.png" alt="Img placeholder">
             </div>
         </section>
-        <section id="projects">
+        <section id="projects" class="projects_sections">
             <div class="projects_text">
                 <h2>Projects</h2>
                 <p>These are some of my projects:</p>
             </div>
             <div class="projects">
-                <div>
-                    <img src="project1.png" alt="Project 1 img">
-                    <p>Project 1</p>
+                <div class="project">
+                    <img src="{{ asset('img/Cat03.jpg') }}" alt="Project img">
+                    <p>Project</p>
                 </div>
-                <div>
-                    <img src="project2.png" alt="Project 2 img">
-                    <p>Project 2</p>
+                <div class="project">
+                    <img src="{{ asset('img/Cat03.jpg') }}" alt="Project img">
+                    <p>Project</p>
                 </div>
-                <div>
-                    <img src="project3.png" alt="Project 3 img">
-                    <p>Project 3</p>
+                <div class="project">
+                    <img src="{{ asset('img/Cat03.jpg') }}" alt="Project img">
+                    <p>Project</p>
+                </div>
+                <div class="project">
+                    <img src="{{ asset('img/Cat03.jpg') }}" alt="Project img">
+                    <p>Project</p>
+                </div>
+                <div class="project">
+                    <img src="{{ asset('img/Cat03.jpg') }}" alt="Project img">
+                    <p>Project</p>
+                </div>
+                <div class="project">
+                    <img src="{{ asset('img/Cat03.jpg') }}" alt="Project img">
+                    <p>Project</p>
+                </div>
+                <div class="project">
+                    <img src="{{ asset('img/Cat03.jpg') }}" alt="Project img">
+                    <p>Project</p>
+                </div>
+                <div class="project">
+                    <img src="{{ asset('img/Cat03.jpg') }}" alt="Project img">
+                    <p>Project</p>
                 </div>
             </div>
         </section>
@@ -71,9 +91,9 @@
             </div>
             <div class="contact_form">
                 <form action="">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <input required class="text" type="text" placeholder="Name">
+                    <input required class="email" type="email" placeholder="Email">
+                    <textarea required name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
                     <button>Send</button>
                 </form>
             </div>
