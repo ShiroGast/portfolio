@@ -62,6 +62,7 @@ section {
     border-radius: 10px;
     padding: 30px;
     margin: 40px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
 }
 
 .portfolio, .about, .contact_text {
@@ -150,4 +151,9 @@ button {
     cursor: pointer;
     font-size: larger;
     width: 350px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: rgb(68, 0, 132)
 }
