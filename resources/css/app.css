@@ -52,6 +52,10 @@ a:hover {
 /* Here ends the code for the header and the nav bar */
 
 /* Here starts the css code for the main section */
+body {
+    background-color: rgb(87, 27, 143);
+}
+
 main {
     background-color: rgb(87, 27, 143);
     padding: 20px;
@@ -103,6 +107,11 @@ section {
     gap: 20px;
     margin: 20px;
     justify-items: center;
+}
+
+.scroll {
+    height: 570px;
+    overflow-y: auto;
 }
 
 .project {

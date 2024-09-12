@@ -15,14 +15,13 @@
                     <img src="logo.png" alt="Logo">
                 </div>
                 <div class="links">
-                    <a href="http://portfolio.test/#home">Home</a>
-                    <a href="http://portfolio.test/#about">About</a>
-                    <a href="http://portfolio.test/#projects">Projects</a>
-                    <a href="http://portfolio.test/#contact">Contact</a>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
                 </div>
                 <div class="login">
-                    <a href="">Login</a>
-                    <a href="">Register</a>
+                    <a href="">Admin panel</a>
                 </div>
             </nav>
         </div>
@@ -48,7 +47,7 @@
                 <h2>Projects</h2>
                 <p>These are some of my projects:</p>
             </div>
-            <div class="projects">
+            <div class="projects scroll">
                 <div class="project">
                     <img src="{{ asset('img/Cat03.jpg') }}" alt="Project img">
                     <p>Project</p>
